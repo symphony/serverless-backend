@@ -1,3 +1,3 @@
-import { FunctionParser } from "firebase-backend";
+import { FunctionParser } from 'firebase-backend';
 
-export default new FunctionParser({ rootPath: __dirname, verbose: true, exports }).exports;
+exports = new FunctionParser({ rootPath: __dirname, verbose: true, exports }).exports;
